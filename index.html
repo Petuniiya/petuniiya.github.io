@@ -1,29 +1,243 @@
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="file:///D:/My-landing-page/scss/custom.css" type="text/css" >
+    <link rel="stylesheet" href="file:///D:/My-landing-page/scss/animate.css" type="text/css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <title>Jannet</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-wrapper" onclick="hamburgerUpDown()">
+        <div class="nav-stripe border-light" id="stripe-1">
+        </div>
+        <div class="nav-stripe border-light" id="stripe-4">
+        </div>
+        <div class="nav-stripe border-light" id="stripe-2">
+        </div>
+        <div class="nav-stripe border-light" id="stripe-3">
+        </div>
+      </div>
+      <div id="nav-links" class="d-flex flex-column">
+        <a href=# class="lead text-white text-md-left mt-2">Home</a>
+        <a href=#section-about class="lead text-white text-md-left mt-2">About</a>
+        <a href=#section-portfolio class="lead text-white text-md-left mt-2">Portfolio</a>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-secondary">
+      <div class="contacts">
+        <a href="tel:0415040575"><img src="images/phone-white.svg" class="image-fluid mb-3 cont-img"></image></a>
+        <a href="mailto:zhannashefer83@gmail.com"><img src="images/email-white.svg" class="image-fluid  mb-3  cont-img"></image></a>
+        <a href="https://www.linkedin.com/in/zhshefer/" target="_blank"><img src="images/linkedin-white.svg" class="image-fluid  mb-3  cont-img"></image></a>
+      </div>
+      <div class="decor"> <!-- stripes img-->
+
+      </div>
+
+      <div class="row">
+        <div class="title ">
+          <a href=#section-portfolio ><h1 class="stroke animated slideInLeft">My portfolio</h1></a>
+        </div>
+
+
+        <div class="sub-title ">
+          <a href=#section-about><h1 class="stroke animated slideInRight" onclick="myStyle()">About me</h1></a>
+        </div>
+
+        <div class="col-3 bg-dark vh-100 ">
+
+        </div>
+        <div class="col bg-light ">
+
+        </div>
+        <div class="col-6 bg-primary ">
+
+        </div>
+        <div class="col-2 bg-secondary " >
+
+        </div>
+      </div>
+    </div>
+    <!--divider-->
+    <div class="container-fluid bg-light pt-1"></div>
+    <div class="container-fluid bg-dark pt-1"> </div>
+    <div class="container-fluid bg-primary pt-1"> </div>
+    <!--end divider-->
+
+    <div id="section-about" class="container-fluid bg-secondary">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4 vh-100">
+          <div class="img-wrapper">
+          <div class="img-holder text-center" id="img">
+              <img src="images/photo.png" class="shadow img-fluid gray-scale"></img>
+            </div>
+            <div class="img-holder bg-primary rotate-right shadow" id="rot-r"></div>
+            <div class="img-holder bg-light rotate-left  shadow" id="rot-l"></div>
+          </div>
+        </div>
+        <div class="col-sm-4 vh-100">
+          <div class="text-wrapper">
+            <p id="typewriter" class="text-primary pos-middle text-s"></p>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+
+    <!--divider-->
+    <div class="container-fluid bg-primary pt-1"> </div>
+    <div class="container-fluid bg-light pt-1"></div>
+    <div class="container-fluid bg-dark pt-1"> </div>
+    <!--end divider-->
+
+
+      <div class="container-fluid bg-primary pt-6" id="section-portfolio">
+      <div class="row">
+        <div class="col-sm-2 "></div>
+        <div class="col-sm-5 "> <h1 class="stroke stroke-mobile">Some of my works</h1></div>
+        <div class="col-sm-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6 bg-light pl-5 p-3 m-5 push">
+            <a href="https://www.iinovar.com.au/" target="_blank" class="text-s text-white">
+              iiNOVAR
+            </a>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6 bg-secondary pl-5 p-3 m-5 push">
+          <a href="https://www.iinovar.com.au/landing-page" target="_blank" class="text-s text-white">
+            iiNOVAR landing
+          </a>
+          <div class="glow-wrap">
+            <i class="glow"></i>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6 bg-dark pl-5 p-3 m-5 push">
+          <a href="https://www.vetsatnorthrocks.com.au/" target="_blank" class="text-s text-white">
+            Vets@NR
+          </a>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6 bg-primary border border-light pl-5 p-3 m-5 push">
+          <a href="https://neatcall.com.au/" target="_blank" class="text-s text-white">
+            NeatCall
+          </a>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      var str = "Web Developer experienced in front-end development, UI/UX, responsive web design, framework-based development (AngularJS, Bootstrap), CMS, AWS, GIT versioning, Docker containers (change the text)",
+      i = 0,
+      isTag,
+      text;
+
+      (function type() {
+        text = str.slice(0, ++i);
+        if (text === str) return;
+
+        document.getElementById('typewriter').innerHTML = text;
+
+        var char = text.slice(-1);
+        if( char === '<' ) isTag = true;
+        if( char === '>' ) isTag = false;
+
+        if (isTag) return type();
+        setTimeout(type, 50);
+      }());
+
+      var menu = 0;
+      function hamburgerUpDown(){if(menu == 0){hamburgerMove(1); } else{ hamburgerMove(0); }}
+      function hamburgerMove(tog){
+        var stripe1=document.getElementById('stripe-1');
+        var stripe4=document.getElementById('stripe-4');
+        var navLinks=document.getElementById('nav-links');
+        menu=tog;
+
+        if (menu===1){
+          document.getElementById('stripe-2').style.visibility='hidden';
+          document.getElementById('stripe-3').style.visibility='hidden';
+      //    stripe1.style.width='30px';
+          stripe1.style.transform='rotateZ(45deg)' ;
+      //    stripe4.style.width='30px';
+          stripe4.style.transform='rotateZ(-45deg)' ;
+          navLinks.style.top='0rem';
+          navLinks.style.opacity='100%';
+
+       } else{
+         document.getElementById('stripe-2').style.visibility='visible';
+         document.getElementById('stripe-3').style.visibility='visible';
+    //     stripe1.style.width='3.6rem';
+         stripe1.style.transform='rotateZ(0deg)' ;
+  //       stripe4.style.width='3.6rem';
+         stripe4.style.transform='rotateZ(0deg)' ;
+         navLinks.style.top='-20rem';
+         navLinks.style.opacity='0%';
+       }
+
+      }
+
+      //image hover
+
+      $(document).ready(function(){
+        $("#img").hover(function(){
+          $("#rot-r").css({
+            "transform": "translateY(-50%) rotate(0deg)",
+            "-ms-transform": "translateY(-50%) rotate(0deg)",
+            "-webkit-transform": "translateY(-50%)  rotate(0deg)",
+            "right":"0vw"
+          });
+          $("#rot-l").css({
+            "transform": "translateY(-50%) rotate(0deg)",
+            "-ms-transform": "translateY(-50%) rotate(0deg)",
+            "-webkit-transform": "translateY(-50%)  rotate(0deg)",
+            "right":"0vw"
+          });
+        }, function(){
+          $("#rot-r").css({
+            "transform": "translateY(-50%) rotate(4deg)",
+            "-ms-transform": "translateY(-50%) rotate(4deg)",
+            "-webkit-transform": "translateY(-50%)  rotate(4deg)",
+            "right":"-2vw"
+          });
+          $("#rot-l").css({
+            "transform": "translateY(-50%) rotate(-4deg)",
+            "-ms-transform": "translateY(-50%) rotate(-4deg)",
+            "-webkit-transform": "translateY(-50%)  rotate(-4deg)",
+            "right":"2vw"
+          });
+      });
+});
+
+    </script>
+  </body>
 </html>
